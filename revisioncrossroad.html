@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Revision Crossroad</title>
+    <link rel="stylesheet" href="sheet.css">
+    <script src="javascript.js"></script>
+</head>
+<body id="body" class="dark-mode">
+  <button onclick="topFunction()" id="Btnfive" title="Go to top">Top</button>
+  <script>
+    //Get the button
+    var mybutton = document.getElementById("Btnfive");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+    <button align="right" type="button" name="dark_light" onclick="toggleDarkLight()" title="Toggle dark/light mode">DARK/LIGHT</button>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="">Subjects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <br>
+    <div class="button_cont" align="center"><a class="example_c" href="#LangSub"
+        rel="nofollow noopener">Languages</a></div><br>
+       <div class="button_cont" align="center"><a class="example_c" href="#MainSub"
+          rel="nofollow noopener">Main Subjects</a></div>
+    <br><br>
+    <br><br>
+   <section id="ScienceSub">
+    <figure>
+      <a href="Biology.htm"><img src="biology.jfif" alt="Biology"></a>
+      <figcaption>
+          Biology
+      </figcaption>
+  </figure>
+  <figure>
+    <a href="Physics.htm"><img src="physics.jfif" alt="Pyscics"></a>
+    <figcaption>
+        Physics
+    </figcaption>
+</figure>
+<figure>
+  <a href="Chemistry.htm"><img src="chemistry.png" alt="Chemistry"></a>
+  <figcaption>
+      Chemistry
+  </figcaption>
+</figure>
+   </section>
+
+<br><br><br><br><br><br><br>
+
+
+   <section id="LangSub">
+    <figure>
+      <a href="German.htm"><img src="german.jfif" alt="German"></a>
+      <figcaption>
+          German
+      </figcaption>
+  </figure>
+  <figure>
+    <a href="French.htm"><img src="french.jfif" alt="French"></a>
+    <figcaption>
+        French
+    </figcaption>
+</figure>
+   </section>
+
+   <br><br><br><br><br><br><br>
+
+
+   <section id="MainSub">
+    <figure>
+      <a href="English.htm"><img src="english.png" alt="English"></a>
+      <figcaption>
+          English
+      </figcaption>
+  </figure>
+  <figure>
+    <a href="Maths.htm"><img src="maths.jfif" alt="Maths"></a>
+    <figcaption>
+        Maths
+    </figcaption>
+</figure>
+<figure>
+  <a href="Geography.html"><img src="geog.jfif" alt="Geography"></a>
+  <figcaption>
+      Geography
+  </figcaption>
+</figure>
+</section>
+<section id="secmainsub">
+  <figure>
+    <a href="History.html"><img src="History.jfif" alt="History"></a>
+    <figcaption>
+        History
+    </figcaption>
+  </figure>
+  <figure>
+    <a href="ICT.htm"><img src="ICT.jfif" alt="ICT"></a>
+    <figcaption>
+        ICT
+    </figcaption>
+  </figure>
+  <figure>
+    <a href="HE.html"><img src="HE.png" alt="HE"></a>
+    <figcaption>
+       HE
+    </figcaption>
+  </figure>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

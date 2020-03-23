@@ -1,0 +1,425 @@
+body {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: monospace;
+    }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    background-color: grey;
+    position: fixed;
+    top: 0;
+    border-radius: 20px;
+    font-family: 'oxygen';
+    z-index: 1;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    padding: 8px;
+    background-color: none;
+    color: black;
+    text-decoration: none;
+    text-decoration-color: none;
+    color: white;
+
+}
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+
+li a:hover {
+    background-color: #111;
+}
+.active {
+    background-color: #FFB6C1;
+}
+h1 {
+    font-weight: bold;
+    font-size: 80px;
+}
+.titlecnt {
+    font-family: oxygen;
+    color: #404040;
+}
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+
+  li.dropdown {
+    display: inline-block;
+  }
+  .buttonclean {
+    padding: 20px 48px;
+    background-color: turquoise;
+    color: white;
+    border: grey solid 5px;
+  }
+  .buttonclean:hover {
+    padding: 20px 48px;
+    border: grey solid 6px;
+    font-size: 30px;
+  }
+  .about{
+    margin-top: 2000px;
+    height: 1000px;
+    font-family: 'RobotoThin';
+}
+section nav {
+  line-height: 50px;
+  text-align: center;
+  display: inline-block;
+  flex-direction: column;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: proximity;
+}
+footer {
+  font-size: 10px;
+  text-align: left;
+  background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 1pt;
+}
+header {
+  font-family: 'RobotoThin';
+  font-size: 120px;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.header1 {
+	color: #26d4c2;
+}
+
+.element::-webkit-scrollbar { width: 0 !important }
+
+
+.example_a {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: rgb(0, 0 ,0);
+  padding: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+  }
+  .example_a:hover {
+    background: #434343;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+    }
+    .example_e {
+      border: none;
+      background: #404040;
+      color: #ffffff !important;
+      font-weight: 100;
+      padding: 20px;
+      text-transform: uppercase;
+      border-radius: 6px;
+      display: inline-block;
+      transition: all 0.3s ease 0s;
+      }
+      .example_e:hover {
+        color: #404040 !important;
+        font-weight: 700 !important;
+        letter-spacing: 3px;
+        background: none;
+        -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+        box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+        transition: all 0.3s ease 0s;
+        }
+
+        .example_c {
+          color: #494949 !important;
+          text-transform: uppercase;
+          text-decoration: none;
+          background: #ffffff;
+          padding: 20px;
+          border: 4px solid #494949 !important;
+          display: inline-block;
+          transition: all 0.4s ease 0s;
+          }
+          .example_c:hover {
+            color: #ffffff !important;
+            background: turquoise;
+            border-color: turquoise !important;
+            transition: all 0.4s ease 0s;
+            }
+            #Btnfive {
+              display: none;
+              position: fixed;
+              bottom: 20px;
+              right: 30px;
+              z-index: 99;
+              font-size: 24px;
+              border: none;
+              outline: none;
+              background-color: turquoise;
+              color: white;
+              cursor: pointer;
+              padding: 25px;
+              border-radius: 4px;
+            }
+
+            #Btnfive:hover {
+              background-color: #555;
+            }
+
+        .Linkimgleft {
+          border-radius: 8px;
+          display: block;
+          width: 600;
+          height: 400;
+        }
+        .Linkimgright {
+          border-radius: 8px;
+          display: block;
+          width: 600;
+          height: 400;
+        }
+
+        div.gallery {
+          margin: 5px;
+          border: 1px solid #ccc;
+          float: left;
+          width: 180px;
+        }
+
+        div.gallery:hover {
+          border: 1px solid #777;
+        }
+
+        div.gallery img {
+          width: 100%;
+          height: auto;
+        }
+
+        div.desc {
+          padding: 15px;
+          text-align: center;
+        }
+
+        #ScienceSub figure {
+          margin: auto;
+          padding: 8px;
+          text-align: center;
+          width: 300px;
+        }
+
+        #ScienceSub figure img {
+          border-radius: 30px;
+        }
+
+        #ScienceSub {
+        flex-direction: row;
+          position: relative;
+          top: -90px;
+          display: flex;
+          color: black;
+          padding: 20px;
+        }
+        #LangSub figure {
+          margin: auto;
+          padding: 8px;
+          text-align: center;
+          width: 300px;
+        }
+
+        #LangSub figure img {
+          border-radius: 30px;
+        }
+
+        #LangSub{
+        flex-direction: row;
+          position: relative;
+          top: -90px;
+          display: flex;
+          color: black;
+          padding: 20px;
+        }
+
+
+
+        #MainSub figure {
+          margin: auto;
+          padding: 8px;
+          text-align: center;
+          width: 300px;
+        }
+
+        #MainSub figure img {
+          border-radius: 30px;
+        }
+
+        #MainSub{
+        flex-direction: row;
+          position: relative;
+          top: -90px;
+          display: flex;
+          color: black;
+          padding: 20px;
+        }
+
+
+
+        #secmainsub figure {
+          margin: auto;
+          padding: 8px;
+          text-align: center;
+          width: 300px;
+        }
+
+        #secmainsub figure img {
+          border-radius: 30px;
+        }
+
+        #secmainsub{
+        flex-direction: row;
+          position: relative;
+          top: -90px;
+          display: flex;
+          color: black;
+          padding: 20px;
+        }
+
+
+        .tooltip {
+		position:relative;
+		display:inline-block;
+		border-bottom: none;
+		color: darkcyan;
+	}
+	.tooltip .tooltiptext {
+		visibility: hidden;
+		 width: 400px;
+		 background-color: none;
+		 color: grey;
+		 padding: 5px 0;
+		 left: 105%;
+		 top: -5px;
+	}
+	.tooltip:hover .tooltiptext {
+		 visibility: visible;
+	 }
+
+   .subtitle{
+		color: black;
+	}
+	h1 {
+		 color: red;
+	 }
+	 .title2 {
+		 color: darkorange;
+	 }
+
+
+
+
+
+ body.dark-mode {
+   background-color: white;
+   color: black;
+   a {
+     color: black;
+   }
+   button {
+     background-color: black;
+     color: white;
+   }
+ }
+
+ body.light-mode {
+   background-color: black;
+   color: white;
+   a {
+     color: white;
+   }
+   button {
+     background-color: white;
+     color: black;
+   }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        @font-face {
+    font-family: robotoslab;
+    src: url(RobotoSlab-Regular.ttf);
+    font-style: normal;
+    font-weight: 100;
+  }
+  @font-face {
+    font-family: CuteFont;
+    src: url(CuteFont-Regular.ttf);
+  }
+  @font-face {
+    font-family: RobotoThin;
+    src: url(Roboto-Thin.ttf);
+  }
+  @font-face {
+    font-family: OpenSans;
+    src: url(OpenSansCondensed-Light.ttf);
+  }
+  @font-face {
+    font-family: Anton;
+    src: url(Anton-Regular.ttf);
+  }
+  @font-face {
+    font-family: oxygen;
+    src: url(Oxygen-Regular.ttf);
+  }
